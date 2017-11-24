@@ -18,5 +18,5 @@
  
  ## [Java8新特性笔记]
   ### Java8概览:
-    ![](https://github.com/Maystory/JavaSE-Code/blob/master/res/Java8.jpeg)
+   ![](https://github.com/Maystory/JavaSE-Code/blob/master/res/Java8.jpeg)
     
