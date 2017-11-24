@@ -20,3 +20,5 @@
   ### Java8概览:
    ![](https://github.com/Maystory/JavaSE-Code/blob/master/res/Java8.jpeg)
     
+   #### 1,函数式接口:
+    
