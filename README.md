@@ -21,4 +21,19 @@
    ![](https://github.com/Maystory/JavaSE-Code/blob/master/res/Java8.jpeg)
     
    #### 1,函数式接口:
+   
+   > 所谓的函数式接口,就是只有一个方法的接口,做好加上@Function注解
+    
+   - Java8中提供的函数式接口:  
+   ![](https://github.com/Maystory/JavaSE-Code/blob/master/res/1.jpeg)
+    
+   注:原始特性类化是指消除自动装箱和拆箱的性能开销提供的基本类型的接口
+   
+   
+   ### 2,lambda表达式和方法引用:
+   
+   ### 3,Stream(并行流和串行流):
+   ![](https://github.com/Maystory/JavaSE-Code/blob/master/res/2.jpeg)
+
+    
     
