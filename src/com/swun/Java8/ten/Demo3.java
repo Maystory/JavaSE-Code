@@ -1,4 +1,4 @@
-package com.swun.Java8.tenOfdemo;
+package com.swun.Java8.ten;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,7 @@
-package com.swun.Java8.tenOfdemo;
+package com.swun.Java8.ten;
 
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 

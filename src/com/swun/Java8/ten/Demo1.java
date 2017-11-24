@@ -1,4 +1,4 @@
-package com.swun.Java8.tenOfdemo;
+package com.swun.Java8.ten;
 
 public class Demo1 {
     public static void main(String args[]) {
