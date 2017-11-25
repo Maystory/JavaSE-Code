@@ -1,6 +1,13 @@
 
-# Java SE 的demo代码与笔记
+# Java SE 的代码与笔记
 
+----------
+
+## *[ReadMe部分没有代码,代码都在项目文件中]*
+
+----------------
+
+ 
 ## [Java多线程核心编程技术] 书籍笔记
 
 ### 第一章:Java多线程技能
@@ -34,6 +41,17 @@
    
    ### 3,Stream(并行流和串行流):
    ![](https://github.com/Maystory/JavaSE-Code/blob/master/res/2.jpeg)
+   
+   ### 4,接口中的默认方法:
+   
+   - 
+   ### 5,Optional:
+   ![](https://github.com/Maystory/JavaSE-Code/blob/master/res/3.jpeg)
+   
+   ### 6，新的时间和日期:
+   
+   
+   
 
     
     
