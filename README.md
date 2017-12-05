@@ -71,6 +71,16 @@
   - 线程间还可以通过管道流通信(字符,字节)
   - join()方法使得所属线程对象x正常执行run中的方法,使得当前的线程进入了无限期的阻塞状态,等待x执行完毕后再执行当前线程.(join方法在内部使用wait)
   - TheadLocal 类似于盒子,存放有线程的私有对象
+  - 公平锁和非公平锁:公平锁表示线程获取锁的顺序是按照线程加锁的顺序来分配的,即先来先得.而非公平锁是一种获取锁的抢占机制,是随机获取锁的,先启动不一定能先获取到锁
+  - 常用方法:
+     1. int getHoldCount() : 查询当前线程保持此锁的个数,也就是调用lock方法的次数
+     2. int getQueueLength() : 返回正在等待获取此锁的线程个数估计
+     3. int getWaitQueueLength(Condition condition) :返回与此锁定相关的给定条件Condition的线程估计数
+     4. boolean hasQueueThread(Thread thread):作用是查询指定的线程是否正在等待获取此锁定
+     5. boolean hasWaiters(Condition condition): 作用是查询是否有线程正在等待与此锁定有关的condition条件
+     6. boolean isFair() : 判断是不是公平锁
+     7. boolean isHeldByCurrentThread() : 查询当前线程是否保持此锁定
+     8. boolean isLocked() : 查询此锁定是否由任意线程保持
   
  
  
