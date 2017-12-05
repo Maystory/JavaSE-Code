@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 描述:
- * run
+ * 连续按顺序打印ABC
  *
  * @outhor my
  * @create 2017-12-05 16:11
@@ -28,12 +28,12 @@ public class Run {
 
                         conditonA.await();
                     }
-                    for (int i = 0; i < 3; i++) {
-                        System.out.println("threadA -------------->" + (i + 1));
 
-                    }
+                        System.out.println("threadA -------------->");
+
+
                     nextPrint = 2;
-                    conditonB.signalAll();
+                    conditonB.signal();
 
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -55,12 +55,12 @@ public class Run {
 
                         conditonB.await();
                     }
-                    for (int i = 0; i < 3; i++) {
-                        System.out.println("threadB------>" + (i + 1));
 
-                    }
+                        System.out.println("threadB------>" );
+
+
                     nextPrint = 3;
-                    conditonC.signalAll();
+                    conditonC.signal();
 
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -82,12 +82,11 @@ public class Run {
 
                         conditonC.await();
                     }
-                    for (int i = 0; i < 3; i++) {
-                        System.out.println("threadC ---------------------------------------->" + (i + 1));
+                        System.out.println("threadC ---------------------------------------->" );
 
-                    }
+
                     nextPrint = 1;
-                    conditonA.signalAll();
+                    conditonA.signal();
 
                 } catch (InterruptedException e) {
                     e.printStackTrace();
