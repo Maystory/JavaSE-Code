@@ -10,9 +10,9 @@ public class Producer implements Runnable {
     public void run() {
         for (int i=0;i<50;i++){
             if (i%2==0){
-                this.message.set("meifan","帅哥");
+                this.message.set("A","---------");
             }else {
-                this.message.set("mouren","仙女");
+                this.message.set("B","..........");
             }
         }
     }

@@ -1,7 +1,7 @@
 package com.swun.duoxiancheng.ProAndCon;
 
 public class Consumer implements Runnable {
-    private Message message =null;
+    private Message message ;
     public Consumer(){}
     public Consumer(Message message){
         this.message = message;

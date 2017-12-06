@@ -3,12 +3,13 @@ package com.swun.duoxiancheng.ProAndCon;
 public class Message {
     private String title;
     private String content;
-    private Boolean flag = true;
+    //true 代表有产品可取走 不可生产 false 代表没有产品了 要生产 不能取
+   volatile private Boolean flag = true;
 
     synchronized public void set(String title, String content) {
         while (!flag) {
             try {
-                wait();
+                this.wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -20,15 +21,15 @@ public class Message {
             e.printStackTrace();
         }
         this.content = content;
-        flag = false;
-        this.notifyAll();
+        this.flag = false;
+        this.notify();
 
     }
 
     synchronized public void get() {
         while (flag) {
             try {
-                wait();
+                this.wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -39,7 +40,7 @@ public class Message {
             }
             System.out.println("可以消费了:" + this.title + "--------->" + this.content);
             this.flag = true;
-            notifyAll();
+            this.notify();
         }
     }
 
