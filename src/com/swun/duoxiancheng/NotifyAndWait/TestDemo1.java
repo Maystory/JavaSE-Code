@@ -1,7 +1,5 @@
 package com.swun.duoxiancheng.NotifyAndWait;
 
-import com.swun.duoxiancheng.Service1;
-
 /**
  * 描述:
  * 交叉打印 A  B

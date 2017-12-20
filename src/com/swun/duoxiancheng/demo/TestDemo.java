@@ -1,6 +1,4 @@
-package com.swun.duoxiancheng;
-
-import org.junit.Test;
+package com.swun.duoxiancheng.demo;
 
 /**
  * 描述:

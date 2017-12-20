@@ -1,4 +1,4 @@
-package com.swun.duoxiancheng;
+package com.swun.duoxiancheng.demo;
 
 /**
  * 描述:
