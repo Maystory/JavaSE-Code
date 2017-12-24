@@ -93,7 +93,7 @@ public class StreamTest1 {
     @Test
     public void test6() {
         //种子是 0
-        Stream.iterate(0,x->x+1).limit(10).forEach(System.out::println);
+        Stream.iterate(0, x -> x + 1).limit(10).forEach(System.out::println);
     }
 
 }
