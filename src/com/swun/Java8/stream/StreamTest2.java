@@ -3,6 +3,7 @@ package com.swun.Java8.stream;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.stream.Stream;
 
 /**
  * Stream的常用方法
@@ -30,8 +31,31 @@ public class StreamTest2 {
 
     }
 
+    /**
+     * map 把一种类型的流转换成另一种类型的流
+     */
     @Test
     public void test2() {
+        String[] strs = new String[]{"Yes","yEs","no","sf","yi"};
+        Arrays.stream(strs).map(String::toUpperCase).forEach(System.out::println);
+
+        User[] users = new User[]{new User("A",34),new User("B",35),new User("C",33)};
+
+//       Arrays.stream(users).map(Stream.of(user)).forEach();
+    }
+
+    /**
+     *  flatMap
+     */
+    @Test
+    public void test3(){
+        String[] arr1 = new String[]{"a","b","c"};
+        String[] arr2 = new String[]{"j","e","f"};
+        String[] arr3 = new String[]{"i","a","g"};
+        /**
+         * 把数组流 转换成了一个字符串流
+         */
+        Stream.of(arr1,arr2,arr3).flatMap(arr->Arrays.stream(arr)).forEach(System.out::println);
 
     }
 }
