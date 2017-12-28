@@ -36,26 +36,27 @@ public class StreamTest2 {
      */
     @Test
     public void test2() {
-        String[] strs = new String[]{"Yes","yEs","no","sf","yi"};
+        String[] strs = new String[]{"Yes", "yEs", "no", "sf", "yi"};
         Arrays.stream(strs).map(String::toUpperCase).forEach(System.out::println);
 
-        User[] users = new User[]{new User("A",34),new User("B",35),new User("C",33)};
-
-//       Arrays.stream(users).map(Stream.of(user)).forEach();
+        User[] users = new User[]{new User("A", 34), new User("B", 35), new User("C", 33)};
+        System.out.println("------------");
+        //将User对象流转换成了Int 对象流
+        Arrays.stream(users).map(User::getAge).forEach(System.out::println);
     }
 
     /**
-     *  flatMap
+     * flatMap
      */
     @Test
-    public void test3(){
-        String[] arr1 = new String[]{"a","b","c"};
-        String[] arr2 = new String[]{"j","e","f"};
-        String[] arr3 = new String[]{"i","a","g"};
+    public void test3() {
+        String[] arr1 = new String[]{"a", "b", "c"};
+        String[] arr2 = new String[]{"j", "e", "f"};
+        String[] arr3 = new String[]{"i", "a", "g"};
         /**
          * 把数组流 转换成了一个字符串流
          */
-        Stream.of(arr1,arr2,arr3).flatMap(arr->Arrays.stream(arr)).forEach(System.out::println);
+        Stream.of(arr1, arr2, arr3).flatMap(arr -> Arrays.stream(arr)).forEach(System.out::println);
 
     }
 }
