@@ -22,17 +22,27 @@ public class NewTimeTest1 {
     @Test
     public void test1() {
         //日期+时间 不好看
+        LocalDateTime currentTime = getLocalDateTime();
+
+        printTime(currentTime);
+    }
+
+    private void printTime(LocalDateTime currentTime) {
+        Month month = currentTime.getMonth();
+        int dayOfMonth = currentTime.getDayOfMonth();
+        int second = currentTime.getSecond();
+        //
+        System.out.println("  month:  " + month.toString() +
+                "   dayofMonth:" + dayOfMonth + "      second" + second);
+    }
+
+    private LocalDateTime getLocalDateTime() {
         LocalDateTime currentTime = LocalDateTime.now();
         System.out.println("currentTime:" + currentTime);
         //仅 当前的日期
         LocalDate localDate = currentTime.toLocalDate();
         System.out.println("localDate is " + localDate);
-
-        Month month = currentTime.getMonth();
-        int dayOfMonth = currentTime.getDayOfMonth();
-        int second = currentTime.getSecond();
-        //
-        System.out.println("  month:  " + month.toString() + "   dayofMonth:" + dayOfMonth + "      second" + second);
+        return currentTime;
     }
 
     @Test

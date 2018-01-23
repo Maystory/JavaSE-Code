@@ -13,11 +13,15 @@ public class OptionalTest {
     public void test(){
         Optional<String> optional = Optional.of("bam");
         boolean present = optional.isPresent();
+        printOption(optional, present);
+
+    }
+
+    private void printOption(Optional<String> optional, boolean present) {
         System.out.println(present);
         String s = optional.get();
         System.out.println(s);
         optional.ifPresent(System.out::println);
         optional.orElse("54");
-
     }
 }
