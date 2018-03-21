@@ -1,9 +1,13 @@
 package com.swun.Java8.stream;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
     private String username;
     private int age;
 
+    public User() {
+    }
 
     public User(String username, int age) {
         this.username = username;
