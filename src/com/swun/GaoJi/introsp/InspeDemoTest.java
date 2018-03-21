@@ -20,6 +20,7 @@ public class InspeDemoTest {
             Method writeMethod = p.getWriteMethod();
             System.out.println(readMethod);
             System.out.println(writeMethod);
+
         }
     }
 }
