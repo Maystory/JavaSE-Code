@@ -14,7 +14,6 @@ public class CopyDemo {
         File srcFile = new File("java");
         File destFile = new File("txt");
         File[] files = srcFile.listFiles((dir, name) -> new File(dir, name).isFile() && name.endsWith(".java"));
-
         for (File sFile : files) {
             InputStream in = new FileInputStream(sFile);
             OutputStream out = new FileOutputStream(new File(destFile, sFile.getName()));
