@@ -5,7 +5,7 @@ import java.util.concurrent.CyclicBarrier;
 /**
  * 描述:
  *
- * @outhor my
+ * @outhor mf
  * @create 2018-03-22 17:35
  */
 public class CycleBarrTest {
