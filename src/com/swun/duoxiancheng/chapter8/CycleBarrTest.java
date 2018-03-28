@@ -1,4 +1,4 @@
-package com.swun.duoxiancheng.binfaart;
+package com.swun.duoxiancheng.chapter8;
 
 import java.util.concurrent.CyclicBarrier;
 
