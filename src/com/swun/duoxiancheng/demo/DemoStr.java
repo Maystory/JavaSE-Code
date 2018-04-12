@@ -1,10 +1,6 @@
 package com.swun.duoxiancheng.demo;
 
-import com.swun.Java8.stream.User;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import com.swun.GaoJi.introsp.User;
 
 /**
  * 描述:
@@ -14,21 +10,13 @@ import java.util.List;
  */
 public class DemoStr {
     public static void main(String[] args) {
-        String str = "[\"247900001\",\"247900002\"]";
-//        parse(str);
 
-        System.out.println(Integer.parseInt(System.currentTimeMillis()/1000+""));
+        User user = new User();
+        user.setName(null);
+
+        System.out.println(user.getName());
 
     }
 
-    public static void parse(String string) {
-        String replace = string.replace("\"", "").
-                                replace("[","").
-                                replace("]","");
 
-        String[] split = replace.split(",");
-        for (String s : split) {
-            System.out.println(s);
-        }
-    }
 }
