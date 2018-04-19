@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import static java.util.stream.Collectors.toList;
+
 /**
  * 如何创建一个Stream
  */
@@ -96,5 +98,22 @@ public class StreamTest1 {
         Stream.iterate(0, x -> x + 1).limit(10).forEach(System.out::println);
     }
 
+    /**
+     * 筛选出年龄大于25的人 的名字
+     */
+    @Test
+    public void test7(){
+        User[] users = new User[]{new User("张三", 20), new User("李四", 30), new User("王五1", 40),new User("王五2", 40),new User("王五3", 40),new User("王五", 40),new User("王五", 40)};
+        List<User> userList = Arrays.asList(users);
+        List<String> stringList = userList.stream()
+                .filter((user) -> user.getAge() > 25)
+                .map(User::getUsername)
+                .limit(4)
+                .collect(toList());
+        for (String s : stringList) {
+            System.out.println(s);
+        }
+        //
+    }
 }
 
