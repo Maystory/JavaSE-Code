@@ -1,4 +1,4 @@
-package com.swun.GaoJi.net.cs2;
+package com.swun.gaoji.net.cs2;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

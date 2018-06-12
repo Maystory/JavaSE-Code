@@ -1,7 +1,6 @@
-package com.swun.GaoJi.io;
+package com.swun.gaoji.io;
 
 import java.io.File;
-import java.io.FileFilter;
 
 /**
  * 描述:

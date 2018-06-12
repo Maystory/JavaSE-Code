@@ -1,11 +1,11 @@
-package com.swun.GaoJi.anno;
+package com.swun.gaoji.anno;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface MyBefore {
+@Retention(RetentionPolicy.RUNTIME)
+public @interface MyTest {
 }

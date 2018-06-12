@@ -1,4 +1,4 @@
-package com.swun.GaoJi.anno;
+package com.swun.gaoji.anno;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

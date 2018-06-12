@@ -1,6 +1,6 @@
 package com.swun.duoxiancheng.demo;
 
-import com.swun.GaoJi.introsp.User;
+import com.swun.gaoji.introsp.User;
 
 /**
  * 描述:

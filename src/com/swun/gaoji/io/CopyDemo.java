@@ -1,4 +1,4 @@
-package com.swun.GaoJi.io;
+package com.swun.gaoji.io;
 
 import java.io.*;
 

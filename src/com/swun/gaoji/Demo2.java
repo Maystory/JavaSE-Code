@@ -1,11 +1,8 @@
-package com.swun.GaoJi;
+package com.swun.gaoji;
 
 import org.joda.time.*;
 
 import java.math.BigDecimal;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
 
 
 /**

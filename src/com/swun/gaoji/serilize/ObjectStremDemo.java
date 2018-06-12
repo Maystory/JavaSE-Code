@@ -1,4 +1,4 @@
-package com.swun.GaoJi.serilize;
+package com.swun.gaoji.serilize;
 
 import com.swun.Java8.stream.User;
 

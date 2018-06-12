@@ -1,4 +1,4 @@
-package com.swun.GaoJi.introsp;
+package com.swun.gaoji.introsp;
 
 import java.io.Serializable;
 

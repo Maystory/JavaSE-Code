@@ -18,5 +18,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="taobao-sdk-java-auto_1519300535318-20180515" level="project" />
+    <orderEntry type="library" name="joda-time-2.3" level="project" />
   </component>
 </module>
