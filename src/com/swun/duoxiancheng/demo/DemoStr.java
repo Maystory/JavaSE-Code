@@ -11,10 +11,11 @@ import com.swun.gaoji.introsp.User;
 public class DemoStr {
     public static void main(String[] args) {
 
-        User user = new User();
-        user.setName(null);
+//        User user = new User();
+//        user.setName(null);
+//
+//        System.out.println(user.getName());
 
-        System.out.println(user.getName());
 
     }
 
