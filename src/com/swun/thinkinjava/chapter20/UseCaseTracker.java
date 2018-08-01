@@ -25,8 +25,6 @@ public class UseCaseTracker {
         for (Integer useCase : useCases) {
             System.out.println("missing useCase :" + useCase);
         }
-
-
     }
 
     public static void main(String[] args) {
