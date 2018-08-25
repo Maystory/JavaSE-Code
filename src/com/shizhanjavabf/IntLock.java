@@ -8,8 +8,8 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class IntLock implements Runnable {
 
-    public ReentrantLock lock1 = new ReentrantLock();
-    public ReentrantLock lock2 = new ReentrantLock();
+    public static ReentrantLock lock1 = new ReentrantLock();
+    public static ReentrantLock lock2 = new ReentrantLock();
 
     int lock;
 
@@ -22,12 +22,15 @@ public class IntLock implements Runnable {
 
         try {
             if (lock == 1) {
+                /**
+                 * lockInterruptibl 可中断的获取锁
+                 */
                 lock1.lockInterruptibly();
-                Thread.sleep(1000);
+                Thread.sleep(500);
                 lock2.lockInterruptibly();
             } else {
                 lock2.lockInterruptibly();
-                Thread.sleep(1000);
+                Thread.sleep(500);
                 lock1.lockInterruptibly();
 
             }
@@ -55,7 +58,7 @@ public class IntLock implements Runnable {
         t2.start();
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
