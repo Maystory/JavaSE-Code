@@ -15,7 +15,7 @@ public class ThreadPoolDemo {
         public void run() {
             System.out.println(System.currentTimeMillis() + " :Thred ID :" + Thread.currentThread().getName());
             try {
-                Thread.sleep(new Random(20).nextInt());
+                Thread.sleep(3000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -24,7 +24,8 @@ public class ThreadPoolDemo {
 
     public static void main(String[] args) {
         MyTask task = new MyTask();
-        ExecutorService executorService = Executors.newFixedThreadPool(7);
+//        ExecutorService executorService = Executors.newFixedThreadPool(7);
+        ExecutorService executorService = Executors.newCachedThreadPool();
         for (int i = 0; i < 20; i++) {
             executorService.submit(task);
         }
