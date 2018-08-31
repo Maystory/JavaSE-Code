@@ -1,6 +1,8 @@
 package com.letcode.easy;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 描述:
@@ -19,11 +21,11 @@ public class TwoSum {
         int[] nums = new int[]{2, 5, 11, 7, 15};
         int target = 20;
         System.out.println(Arrays.toString(twoSum(nums, target)));
+        System.out.println(Arrays.toString(twoSum2(nums, target)));
     }
 
     /**
      * 暴力法 时间复杂度为O2
-     * 简化方式请使用         HashMap
      *
      * @param nums
      * @param target
@@ -42,5 +44,24 @@ public class TwoSum {
             }
         }
         return datas;
+    }
+
+    /**
+     * 网上大师的解法  一次遍历map即可
+     *
+     * @param nums
+     * @param target
+     * @return
+     */
+    public static int[] twoSum2(int[] nums, int target) {
+        Map<Integer, Integer> resultMap = new HashMap<>(16);
+        for (int i = 0; i < nums.length; i++) {
+            int theCome = target - nums[i];
+            if (resultMap.containsKey(theCome)) {
+                return new int[]{resultMap.get(theCome), i};
+            }
+            resultMap.put(nums[i], i);
+        }
+        return null;
     }
 }
