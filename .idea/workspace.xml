@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1e746b-3ac0-4a35-b0c3-e3a8ce9497c3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/javabase/day01reflection/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/javabase/day01reflection/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javabase/day01reflection/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javabase/day01reflection/Demo1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="Demo1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/javabase/day01reflection/Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="106" column="55" selection-start-line="106" selection-start-column="55" selection-end-line="106" selection-end-column="55" />
+            <state relative-caret-position="121">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -398,7 +396,7 @@
       <workItem from="1535689583610" duration="3061000" />
       <workItem from="1536746785140" duration="16000" />
       <workItem from="1536832668380" duration="1040000" />
-      <workItem from="1537519285208" duration="5241000" />
+      <workItem from="1537519285208" duration="5494000" />
     </task>
     <task id="LOCAL-00001" summary="add anno">
       <created>1533130624363</created>
@@ -512,15 +510,21 @@
       <option name="project" value="LOCAL" />
       <updated>1537519315323</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="reflection demo">
+      <created>1537542760514</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1537542760514</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51977000" />
+    <option name="totallyTimeSpent" value="52230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -530,9 +534,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23310345" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23310345" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19448276" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.44" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49376115" visible="true" weight="0.2786753" />
       <window_info anchor="right" id="Database" order="3" />
@@ -575,7 +579,8 @@
     <MESSAGE value="ThreadPool" />
     <MESSAGE value="list 内存溢出" />
     <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+    <MESSAGE value="reflection demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="reflection demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -951,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javabase/day01reflection/Demo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="106" column="55" selection-start-line="106" selection-start-column="55" selection-end-line="106" selection-end-column="55" />
+        <state relative-caret-position="121">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
