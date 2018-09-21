@@ -95,10 +95,6 @@ public class Demo1 {
         // Object result = staticMethod1.invoke(null, new Object[]{new String[]{"aaa", "bbb", "ccc"},});
         // System.out.println(result);
 
-        // System.out.println(clz.getName());
-        // System.out.println(clz.getSimpleName());
-        // System.out.println(clz.getPackage());
-        // System.out.println(clz.getModifiers());
 
         ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
         InputStream inputStream = classLoader.getResourceAsStream("db.properties");
