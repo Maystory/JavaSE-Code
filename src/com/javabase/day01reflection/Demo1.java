@@ -102,6 +102,5 @@ public class Demo1 {
         properties.load(inputStream);
         System.out.println(properties.setProperty("root","shuaige"));
 
-
     }
 }

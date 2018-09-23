@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1e746b-3ac0-4a35-b0c3-e3a8ce9497c3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/javabase/day01reflection/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/javabase/day01reflection/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javabase/day02net/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javabase/day02net/ServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javabase/day02net/SocketDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE-Code/com/javabase/day01reflection/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE-Code/com/javabase/day01reflection/Demo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javabase/day01reflection/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javabase/day01reflection/Demo1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,14 +26,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Demo1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Demo1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/javabase/day01reflection/Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="106" column="55" selection-start-line="106" selection-start-column="55" selection-end-line="106" selection-end-column="55" />
+            <state relative-caret-position="585">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1714#1750#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/javabase/day02net/Demo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/javabase/day02net/ServerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/javabase/day02net/SocketDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BufferedWriter.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/BufferedWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-44">
+              <caret line="86" column="11" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+              <folding>
+                <element signature="e#2279#2280#0" expanded="true" />
+                <element signature="e#2327#2328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="4435" column="25" selection-start-line="4435" selection-start-column="25" selection-end-line="4435" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -47,25 +109,9 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/javabase/day01reflection/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="630">
               <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
               <folding>
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
                 <element signature="e#1135#1136#0" expanded="true" />
                 <element signature="e#1178#1179#0" expanded="true" />
               </folding>
@@ -76,7 +122,7 @@
       <file leaf-file-name="Date.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Date.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
+            <state relative-caret-position="1905">
               <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
               <folding>
                 <element signature="e#6390#6391#0" expanded="true" />
@@ -89,7 +135,7 @@
       <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Class.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="7395">
               <caret line="560" column="26" selection-start-line="560" selection-start-column="26" selection-end-line="560" selection-end-column="26" />
             </state>
           </provider>
@@ -114,13 +160,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/designpattern/strage/FlyWithWings.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/strage/QuackBehavior.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/strage/Quack.java" />
         <option value="$PROJECT_DIR$/src/com/designpattern/strage/MuteQuack.java" />
         <option value="$PROJECT_DIR$/src/com/designpattern/strage/FlyNoWay.java" />
         <option value="$PROJECT_DIR$/src/com/designpattern/strage/FlyRocketPowered.java" />
@@ -169,6 +217,9 @@
         <option value="$PROJECT_DIR$/src/com/javabase/day01reflection/User.java" />
         <option value="$PROJECT_DIR$/src/db.properties" />
         <option value="$PROJECT_DIR$/src/com/javabase/day01reflection/Demo1.java" />
+        <option value="$PROJECT_DIR$/src/com/javabase/day02net/Demo2.java" />
+        <option value="$PROJECT_DIR$/src/com/javabase/day02net/ServerDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/javabase/day02net/SocketDemo.java" />
       </list>
     </option>
   </component>
@@ -195,6 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -227,13 +279,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="javabase" type="462c0819:PsiDirectoryNode" />
-              <item name="day01reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="day02net" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -261,20 +312,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo1">
+  <component name="RunManager" selected="Application.SocketDemo">
     <configuration name="BingfaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shizhanjavabf.BingfaDemo" />
-      <module name="JavaSE-Code" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shizhanjavabf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ConAndProDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shizhanjavabf.ConAndProDemo" />
       <module name="JavaSE-Code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -295,24 +335,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ReversInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.letcode.easy.ReversInteger" />
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javabase.day02net.Demo2" />
       <module name="JavaSE-Code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.letcode.easy.*" />
+          <option name="PATTERN" value="com.javabase.day02net.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.letcode.easy.TwoSum" />
+    <configuration name="ServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javabase.day02net.ServerDemo" />
       <module name="JavaSE-Code" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.letcode.easy.*" />
+          <option name="PATTERN" value="com.javabase.day02net.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SocketDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javabase.day02net.SocketDemo" />
+      <module name="JavaSE-Code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javabase.day02net.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,19 +410,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ConAndProDemo" />
-      <item itemvalue="Application.TwoSum" />
-      <item itemvalue="Application.ReversInteger" />
       <item itemvalue="Application.BingfaDemo" />
       <item itemvalue="Application.Demo1" />
+      <item itemvalue="Application.Demo2" />
+      <item itemvalue="Application.ServerDemo" />
+      <item itemvalue="Application.SocketDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SocketDemo" />
+        <item itemvalue="Application.ServerDemo" />
+        <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.BingfaDemo" />
-        <item itemvalue="Application.ReversInteger" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.ConAndProDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -399,6 +450,7 @@
       <workItem from="1536746785140" duration="16000" />
       <workItem from="1536832668380" duration="1040000" />
       <workItem from="1537519285208" duration="5241000" />
+      <workItem from="1537596386213" duration="2711000" />
     </task>
     <task id="LOCAL-00001" summary="add anno">
       <created>1533130624363</created>
@@ -512,11 +564,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537519315323</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="..">
+      <created>1537543242549</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1537543242549</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51977000" />
+    <option name="totallyTimeSpent" value="55172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -530,28 +589,28 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23310345" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23310345" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.19448276" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49376115" visible="true" weight="0.2786753" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49376115" visible="true" weight="0.28271407" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Structure" order="1" sideWeight="0.5062389" weight="0.2786753" />
+      <window_info id="Structure" order="1" sideWeight="0.5062389" side_tool="true" weight="0.2786753" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19724138" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="CheckStyle" order="8" weight="0.32965517" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,42 +642,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/stratery/MiniDuckSimulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/gitNote.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6540">
-          <caret line="436" column="28" selection-start-line="436" selection-start-column="28" selection-end-line="436" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swun/se/CalenderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/swun/se/MyTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/swun/se/CallableDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -863,9 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -899,14 +919,14 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="7395">
           <caret line="560" column="26" selection-start-line="560" selection-start-column="26" selection-end-line="560" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
+        <state relative-caret-position="1905">
           <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
           <folding>
             <element signature="e#6390#6391#0" expanded="true" />
@@ -917,27 +937,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javabase/day01reflection/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="630">
           <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
           <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
             <element signature="e#1135#1136#0" expanded="true" />
             <element signature="e#1178#1179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javabase/day01reflection/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1714#1750#0" />
           </folding>
         </state>
       </provider>
@@ -949,10 +964,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/javabase/day01reflection/Demo1.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="106" column="55" selection-start-line="106" selection-start-column="55" selection-end-line="106" selection-end-column="55" />
+        <state relative-caret-position="177">
+          <caret line="4435" column="25" selection-start-line="4435" selection-start-column="25" selection-end-line="4435" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javabase/day02net/Demo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/BufferedWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="86" column="11" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+          <folding>
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javabase/day02net/SocketDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javabase/day02net/ServerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
