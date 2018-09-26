@@ -25,15 +25,16 @@ public class Demo3 {
         // System.out.println(file.getAbsolutePath());
         // File[] files = file.listFiles((dir, name) -> new File(dir, name).isFile() && name.endsWith(".pptx"));
         // System.out.println(Arrays.toString(files));
-        File file = new File("file.txt");
-        File copy = new File("file.txt-copy");
-        // System.out.println(file.getAbsolutePath());
-        // OutputStream outputStream = new FileOutputStream(file,true);
-        // outputStream.write("向文件中写数据\t".getBytes());
-
-        System.out.println(file.exists());
-        //文件拷贝
-        copyFile(file, copy);
+        // File file = new File("file.txt");
+        // File copy = new File("file.txt-copy");
+        // // System.out.println(file.getAbsolutePath());
+        // // OutputStream outputStream = new FileOutputStream(file,true);
+        // // outputStream.write("向文件中写数据\t".getBytes());
+        //
+        // System.out.println(file.exists());
+        //
+        // //文件拷贝
+        // copyFile(file, copy);
 
 
     }
