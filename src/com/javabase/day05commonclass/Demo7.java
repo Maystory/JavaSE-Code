@@ -1,7 +1,9 @@
 package com.javabase.day05commonclass;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.List;
 
 /**
  *
@@ -32,7 +34,19 @@ public class Demo7 {
         // String[] split = str.split(",");
         // System.out.println(Arrays.toString(split));
 
-        Calendar calendar = Calendar.getInstance();
-        System.out.println(calendar.get(Calendar.AM));
+        // Calendar calendar = Calendar.getInstance();
+        // System.out.println(calendar.get(Calendar.AM));
+        List<String> list1 = new ArrayList<>();
+        List<String> list2 = new ArrayList<>();
+        list1.add("heh");
+        list1.add("oo");
+
+        list2.add("mm");
+        list2.add("gg");
+
+        list1.addAll(list2);
+        System.out.println(list1);
+
+
     }
 }
