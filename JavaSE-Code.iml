@@ -20,5 +20,7 @@
     <orderEntry type="library" name="taobao-sdk-java-auto_1519300535318-20180515" level="project" />
     <orderEntry type="library" name="joda-time-2.3" level="project" />
     <orderEntry type="library" name="gson-2.8.0" level="project" />
+    <orderEntry type="library" name="guava-26.0-jre" level="project" />
+    <orderEntry type="library" name="commons-io-2.4" level="project" />
   </component>
 </module>
