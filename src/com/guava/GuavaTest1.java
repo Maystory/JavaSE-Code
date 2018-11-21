@@ -8,6 +8,8 @@ import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.*;
 
 /**
@@ -17,7 +19,7 @@ import java.util.*;
 public class GuavaTest1 {
     public static void main(String[] args) {
         //1，创建不可变的集合
-
+        System.err.println(LocalDate.now());
         ImmutableList<String> strList = ImmutableList.of("a", "b", "c");
         ImmutableList<Integer> integers = ImmutableList.of(1, 2, 3);
         strList.forEach(System.out::println);
@@ -70,6 +72,15 @@ public class GuavaTest1 {
         int count = 10;
         // Preconditions.checkArgument(count>30,"cont不大于30！");
         Preconditions.checkNotNull(ex2);
+       //6 JDK 1.8 遍历Map
+        Map<String, Integer> hashMap = new HashMap<>(16);
+        hashMap.put("k1", 1);
+        hashMap.put("k2", 2);
+        hashMap.put("k3", 3);
+        hashMap.forEach((k,v)->{
+            System.out.println(k);
+            System.out.println(v);
+        });
 
 
     }
