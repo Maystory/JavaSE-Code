@@ -1,8 +1,7 @@
 package com.guava;
 
-import java.io.File;
-import java.util.HashMap;
-import java.util.Map;
+import java.time.Instant;
+import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * @author Maven
@@ -13,8 +12,10 @@ public class TestFile {
         // File resultFile = File.createTempFile("pay-orders-", "-suffix");
         // System.out.println(resultFile);
 
-
-
+        Instant now = Instant.now();
+        System.out.println(now);
+        ThreadLocalRandom threadLocalRandom = ThreadLocalRandom.current();
+        int i = threadLocalRandom.nextInt(12);
 
     }
 }
