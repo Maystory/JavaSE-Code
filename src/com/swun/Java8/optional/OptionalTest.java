@@ -34,5 +34,9 @@ public class OptionalTest {
 
         o1.ifPresent((x)-> System.out.println(x.toString()));
         Optional<Integer> integer = o1.map(y -> y.getAge());
+
+        final String name = "meifan";
+        o1.ifPresent(o-> System.out.println(name));
+
     }
 }

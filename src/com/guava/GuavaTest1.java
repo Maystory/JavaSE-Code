@@ -35,6 +35,8 @@ public class GuavaTest1 {
         map.put("key5", "value5");
         map.put("key6", "value6");
         map.put("key7", null);
+        System.err.println(map);
+        //将map 的value 全都改变
         Map<Object, String> newMap = Maps.transformValues(map, value -> value + "添加上内容");
         System.out.println(newMap);
         System.out.println("-----------分割线------------------");
@@ -50,6 +52,7 @@ public class GuavaTest1 {
         System.out.println(toMap);
         Collection<Integer> values = multimap.values();
         System.out.println(values);
+        //连接器 按指定的格式连接
         String joinMap = Joiner.on(",").withKeyValueSeparator(":").useForNull("null").join(map);
         System.out.println(joinMap);
         System.out.println("-----------分割线------------------");
@@ -72,6 +75,7 @@ public class GuavaTest1 {
         int count = 10;
         // Preconditions.checkArgument(count>30,"cont不大于30！");
         Preconditions.checkNotNull(ex2);
+
        //6 JDK 1.8 遍历Map
         Map<String, Integer> hashMap = new HashMap<>(16);
         hashMap.put("k1", 1);
