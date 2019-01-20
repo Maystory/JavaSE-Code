@@ -92,7 +92,7 @@ public class Demo1 {
         //
         // Method staticMethod1 = clz.getMethod("staticMethod1", String[].class);
         // //调用数组很复杂的 new Object[]{ ....}
-        // Object result = staticMethod1.invoke(null, new Object[]{new String[]{"aaa", "bbb", "ccc"},});
+        // Object result = staticMethod1.invoke(null, new Object[]{new String[]{"aaa", "bbb", "ccc"},})git;
         // System.out.println(result);
 
 
@@ -101,7 +101,6 @@ public class Demo1 {
         Properties properties = new Properties();
         properties.load(inputStream);
         System.out.println(properties.setProperty("root","shuaige"));
-
 
     }
 }
