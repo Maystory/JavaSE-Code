@@ -278,6 +278,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Unsafe&#9;PSI&#9;JAVA://sun.misc.Unsafe&#10;ThreadLo&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;ThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;Executor&#9;PSI&#9;JAVA://java.util.concurrent.Executor" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
