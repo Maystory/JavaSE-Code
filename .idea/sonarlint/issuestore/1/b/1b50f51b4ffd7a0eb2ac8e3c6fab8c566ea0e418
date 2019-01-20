@@ -1,0 +1,7 @@
+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(úŽœüýÿÿÿÿ
+=squid:S1481"&Remove this unused "i" local variable.(˜Õ‹­
+Lsquid:S1854"5Remove this useless assignment to local variable "i".(˜Õ‹­
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õ»„
+¢%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Þýÿÿÿÿ
