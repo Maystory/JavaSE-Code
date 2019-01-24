@@ -31,8 +31,8 @@
       <file leaf-file-name="CalenderDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/swun/se/CalenderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -88,7 +88,6 @@
         <option value="$PROJECT_DIR$/src/com/designpattern/strage/Duck.java" />
         <option value="$PROJECT_DIR$/src/com/designpattern/strage/MiniDuckSimulator.java" />
         <option value="$PROJECT_DIR$/src/com/designpattern/stratery/MiniDuckSimulator.java" />
-        <option value="$PROJECT_DIR$/src/com/swun/se/CalenderDemo.java" />
         <option value="$PROJECT_DIR$/src/com/swun/se/MyTask.java" />
         <option value="$PROJECT_DIR$/src/com/swun/se/CallableDemo.java" />
         <option value="$PROJECT_DIR$/src/com/designpattern/Observer/Subject.java" />
@@ -129,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/db.properties" />
         <option value="$PROJECT_DIR$/src/com/javabase/day01reflection/Demo1.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/swun/se/CalenderDemo.java" />
       </list>
     </option>
   </component>
@@ -480,11 +480,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537542760514</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="br1 commit-1">
+      <created>1548323169381</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1548323169382</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52804000" />
+    <option name="totallyTimeSpent" value="52837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -589,7 +596,8 @@
     <MESSAGE value="list 内存溢出" />
     <MESSAGE value=".." />
     <MESSAGE value="reflection demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="reflection demo" />
+    <MESSAGE value="br1 commit-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="br1 commit-1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -606,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/swun/se/CalenderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="221">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
