@@ -20,7 +20,7 @@ public abstract class Duck {
     }
 
     public void swim() {
-        System.out.println("all Docks floads ,even decoys");
+        System.out.println("all Docks swim ,even decoys");
     }
 
     public void setFlyBehavior(FlyBehavior flyBehavior) {
