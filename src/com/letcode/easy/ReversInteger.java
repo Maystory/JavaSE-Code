@@ -66,10 +66,10 @@ public class ReversInteger {
         while (x != 0) {
             int top = x % 10;
             //防止溢出
-            if (rev > Integer.MAX_VALUE/10 || (rev ==Integer.MAX_VALUE/10 && top >7)) {
+            if (rev > Integer.MAX_VALUE / 10 || (rev == Integer.MAX_VALUE / 10 && top > 7)) {
                 return 0;
             }
-            if (rev < Integer.MIN_VALUE/10 || (rev ==Integer.MIN_VALUE /10&& top <-8)) {
+            if (rev < Integer.MIN_VALUE / 10 || (rev == Integer.MIN_VALUE / 10 && top < -8)) {
                 return 0;
             }
             //最后一位

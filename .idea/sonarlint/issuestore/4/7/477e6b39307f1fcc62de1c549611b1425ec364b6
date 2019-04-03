@@ -1,49 +1,49 @@
 
-·squid:S4449H"“Annotate the parameter with @javax.annotation.Nullable in method 'isNullOrEmpty' declaration, or make sure that null can not be passed as argument.(Ñ‰²æýÿÿÿÿ8—ò×àƒ-
-°squid:S4449J"‘Annotate the parameter with @javax.annotation.Nullable in method 'nullToEmpty' declaration, or make sure that null can not be passed as argument.(Ý†ÙŠ8—ò×àƒ-
+`squid:UselessImportCheck"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ8ÏŽ¹Éˆ-
 V
-squid:S106?"9Replace this use of System.out or System.err by a logger.(•âÑÅ8—ò×àƒ-
+squid:S106"9Replace this use of System.out or System.err by a logger.(À¼îÛ8ÏŽ¹Éˆ-
 V
-squid:S106@"9Replace this use of System.out or System.err by a logger.(ó¹ó¹8—ò×àƒ-
-V
-squid:S106I"9Replace this use of System.out or System.err by a logger.(âò­Ž8—ò×àƒ-
-[
-squid:S1064"9Replace this use of System.out or System.err by a logger.(øË³òýÿÿÿÿ8—ò×àƒ-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(îÍ±©øÿÿÿÿ8—ò×àƒ-
-nsquid:CommentedOutCodeLineL"<This block of commented-out lines of code should be removed.(ÖèÌßúÿÿÿÿ8—ò×àƒ-
-Msquid:S1481K"*Remove this unused "count" local variable.(‚„ËÅøÿÿÿÿ8—ò×àƒ-
-[
-squid:S106&"9Replace this use of System.out or System.err by a logger.(ØüÎˆüÿÿÿÿ8—ò×àƒ-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ó¹ó¹8—ò×àƒ-
-…squid:S1192"gDefine a constant instead of duplicating this literal "-----------åˆ†å‰²çº¿------------------" 4 times.(ó¹ó¹8—ò×àƒ-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ô Äÿ8—ò×àƒ-
-V
-squid:S1066"9Replace this use of System.out or System.err by a logger.(‡›–8—ò×àƒ-
-V
-squid:S106*"9Replace this use of System.out or System.err by a logger.(ó¹ó¹8—ò×àƒ-
-[
-squid:S106H"9Replace this use of System.out or System.err by a logger.(Ñ‰²æýÿÿÿÿ8—ò×àƒ-
-`squid:UselessImportCheck"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ8—ò×àƒ-
-V
-squid:S106G"9Replace this use of System.out or System.err by a logger.(Ç¯¦¸8—ò×àƒ-
-V
-squid:S106J"9Replace this use of System.out or System.err by a logger.(Ý†ÙŠ8—ò×àƒ-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(À¼îÛ8—ò×àƒ-
-¶squid:S4449M"’Annotate the parameter with @javax.annotation.Nullable in method 'checkNotNull' declaration, or make sure that null can not be passed as argument.(Ê„õžþÿÿÿÿ8—ò×àƒ-
-V
-squid:S106:"9Replace this use of System.out or System.err by a logger.(ó¹ó¹8—ò×àƒ-
+squid:S106"9Replace this use of System.out or System.err by a logger.(ô Äÿ8ÏŽ¹Éˆ-
 U
-squid:S1069"9Replace this use of System.out or System.err by a logger.(š»§=8—ò×àƒ-
+squid:S1069"9Replace this use of System.out or System.err by a logger.(š»§=8ÏŽ¹Éˆ-
 [
-squid:S106V"9Replace this use of System.out or System.err by a logger.(Ä©‚šÿÿÿÿÿ8—ò×àƒ-
+squid:S106"9Replace this use of System.out or System.err by a logger.(îÍ±©øÿÿÿÿ8ÏŽ¹Éˆ-
+…squid:S1192"gDefine a constant instead of duplicating this literal "-----------åˆ†å‰²çº¿------------------" 4 times.(ó¹ó¹8ÏŽ¹Éˆ-
+nsquid:CommentedOutCodeLineL"<This block of commented-out lines of code should be removed.(ÖèÌßúÿÿÿÿ8ÏŽ¹Éˆ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ó¹ó¹8ÏŽ¹Éˆ-
+V
+squid:S106?"9Replace this use of System.out or System.err by a logger.(•âÑÅ8ÏŽ¹Éˆ-
+V
+squid:S106@"9Replace this use of System.out or System.err by a logger.(ó¹ó¹8ÏŽ¹Éˆ-
 [
-squid:S1062"9Replace this use of System.out or System.err by a logger.(È¾‰åÿÿÿÿÿ8—ò×àƒ-
+squid:S106H"9Replace this use of System.out or System.err by a logger.(Ñ‰²æýÿÿÿÿ8ÏŽ¹Éˆ-
 [
-squid:S106)"9Replace this use of System.out or System.err by a logger.(Ï”Òëøÿÿÿÿ8—ò×àƒ-
+squid:S1062"9Replace this use of System.out or System.err by a logger.(È¾‰åÿÿÿÿÿ8ÏŽ¹Éˆ-
+V
+squid:S106I"9Replace this use of System.out or System.err by a logger.(âò­Ž8ÏŽ¹Éˆ-
+¶squid:S4449M"’Annotate the parameter with @javax.annotation.Nullable in method 'checkNotNull' declaration, or make sure that null can not be passed as argument.(Ê„õžþÿÿÿÿ8ÏŽ¹Éˆ-
 [
-squid:S106U"9Replace this use of System.out or System.err by a logger.(æ–Ý€ÿÿÿÿÿ8—ò×àƒ-
-\squid:S1854K"9Remove this useless assignment to local variable "count".(‚„ËÅøÿÿÿÿ8—ò×àƒ-
+squid:S1064"9Replace this use of System.out or System.err by a logger.(øË³òýÿÿÿÿ8ÏŽ¹Éˆ-
+V
+squid:S106J"9Replace this use of System.out or System.err by a logger.(Ý†ÙŠ8ÏŽ¹Éˆ-
+[
+squid:S106)"9Replace this use of System.out or System.err by a logger.(Ï”Òëøÿÿÿÿ8ÏŽ¹Éˆ-
+°squid:S4449J"‘Annotate the parameter with @javax.annotation.Nullable in method 'nullToEmpty' declaration, or make sure that null can not be passed as argument.(Ý†ÙŠ8ÏŽ¹Éˆ-
+V
+squid:S106:"9Replace this use of System.out or System.err by a logger.(ó¹ó¹8ÏŽ¹Éˆ-
+[
+squid:S106&"9Replace this use of System.out or System.err by a logger.(ØüÎˆüÿÿÿÿ8ÏŽ¹Éˆ-
+[
+squid:S106U"9Replace this use of System.out or System.err by a logger.(æ–Ý€ÿÿÿÿÿ8ÏŽ¹Éˆ-
+V
+squid:S106G"9Replace this use of System.out or System.err by a logger.(Ç¯¦¸8ÏŽ¹Éˆ-
+V
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ó¹ó¹8ÏŽ¹Éˆ-
+Msquid:S1481K"*Remove this unused "count" local variable.(‚„ËÅøÿÿÿÿ8ÏŽ¹Éˆ-
+·squid:S4449H"“Annotate the parameter with @javax.annotation.Nullable in method 'isNullOrEmpty' declaration, or make sure that null can not be passed as argument.(Ñ‰²æýÿÿÿÿ8ÏŽ¹Éˆ-
+V
+squid:S1066"9Replace this use of System.out or System.err by a logger.(‡›–8ÏŽ¹Éˆ-
+\squid:S1854K"9Remove this useless assignment to local variable "count".(‚„ËÅøÿÿÿÿ8ÏŽ¹Éˆ-
+[
+squid:S106V"9Replace this use of System.out or System.err by a logger.(Ä©‚šÿÿÿÿÿ8ÏŽ¹Éˆ-

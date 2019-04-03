@@ -21,7 +21,8 @@ public class TheTopKFrequentElements {
 
     public static void main(String[] args) {
         int[] nums = {1, 1, 1, 1, 1, 1, 3, 5, 5, 4, 6, 7};
-        System.out.println(new TheTopKFrequentElements().topKFrequent(nums, 2));;
+        System.out.println(new TheTopKFrequentElements().topKFrequent(nums, 2));
+        ;
 
         // int[] nums2 = {1, 3, 4, 5, 6, 7};
         // System.out.println(new TheTopKFrequentElements().get(nums2));
@@ -33,7 +34,7 @@ public class TheTopKFrequentElements {
             count.put(num, count.getOrDefault(num, 0) + 1);
         }
 
-        PriorityQueue<Integer> heap = new PriorityQueue<>((o1,o2)->count.get(o2) - count.get(o1));
+        PriorityQueue<Integer> heap = new PriorityQueue<>((o1, o2) -> count.get(o2) - count.get(o1));
 
         for (int n : count.keySet()) {
             heap.add(n);
@@ -54,17 +55,6 @@ public class TheTopKFrequentElements {
         return result;
 
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
