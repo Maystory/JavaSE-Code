@@ -11,7 +11,7 @@ public class CurrentConditionDisplay implements Observer, DisplyElement {
 
     public CurrentConditionDisplay(Subject weatherData) {
         this.weatherData = weatherData;
-        weatherData.registerObserver(this);
+        this.weatherData.registerObserver(this);
     }
 
 

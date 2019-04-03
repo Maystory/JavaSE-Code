@@ -52,7 +52,7 @@ public class GuavaTest1 {
         System.out.println(toMap);
         Collection<Integer> values = multimap.values();
         System.out.println(values);
-        //连接器 按指定的格式连接
+        //连接器 按指定的格式连接    debug 时 shift+f7 进入方法选择
         String joinMap = Joiner.on(",").withKeyValueSeparator(":").useForNull("null").join(map);
         System.out.println(joinMap);
         System.out.println("-----------分割线------------------");
