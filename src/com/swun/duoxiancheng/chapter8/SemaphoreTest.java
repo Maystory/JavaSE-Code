@@ -17,7 +17,7 @@ import java.util.concurrent.Semaphore;
 public class SemaphoreTest {
     private static final int COUNT = 30;
     private static ExecutorService threadool = Executors.newFixedThreadPool(COUNT);
-    private static  Semaphore semaphore =  new Semaphore(10);
+    private static  Semaphore semaphore =  new Semaphore(2);
 
     public static void main(String[] args) {
         for (int i = 0; i < COUNT; i++) {
@@ -26,6 +26,7 @@ public class SemaphoreTest {
                     //获取一个访问资源的许可
                     semaphore.acquire();
                     System.out.println("save data --"+Thread.currentThread().getName());
+                    Thread.sleep(1000);
                     //释放许可
                     semaphore.release();
                 } catch (InterruptedException e) {
