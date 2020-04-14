@@ -1,5 +1,7 @@
 package com.swun.se;
 
+import com.swun.Java8.stream.User;
+
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -13,12 +15,19 @@ import java.util.stream.Stream;
  */
 public class Java8Demo {
     public static void main(String[] args) {
-        int[] nums = {3, 5, 546, -45, 36, 2};
+        User u = new User();
+        u.setAge(11);
+        u.setUsername("mf");
+        mt(u);
+        System.out.println(u);
+
+    }
 
 
-        int asInt = IntStream.of(nums).max().getAsInt();
-        System.out.println(asInt);
-
+    private static void mt(User user) {
+        User temp = user;
+        temp.setAge(99);
+        temp.setUsername("xixi");
     }
 
 }
