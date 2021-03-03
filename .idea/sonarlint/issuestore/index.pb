@@ -114,3 +114,15 @@ N
 src/com/swun/se/Java8Demo.java,e/d/ed0ca7ec30295a86b8203a2fe7f80b6e024d4d1d
 [
 +src/com/javabase/day07fanxing/RedApple.java,c/7/c7798b7d6a9254b243b864e9f6ea09873fd11acc
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+W
+'src/com/designpattern/Bridge/Brand.java,3/b/3bdbfbfd1c7ee14b4ad06507c32a2b7951cab861
+\
+,src/com/designpattern/Bridge/BridgeTest.java,d/b/db9864c5581355f4bb71e177db90f04b081b307e
+Z
+*src/com/designpattern/Bridge/Computor.java,1/4/1495a63a5956d8c8bf925592e949f77793bf9e91
+Y
+)src/com/designpattern/Bridge/Product.java,9/0/90df1d797d736deae7350715c312a6494d18181f
+[
++src/com/designpattern/Bridge/LianXiang.java,1/6/162e80913a3c0e0a967e8fb08ba274328040c64c
